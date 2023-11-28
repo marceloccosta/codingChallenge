@@ -1,14 +1,15 @@
-const size = 6
-const numbers = [1, 2, 3, 4, 10, 11]
+//Description available on: https://www.hackerrank.com/challenges/simple-array-sum/problem
+
+const numbers = [1, 2, 3, 4, 10, 11];
 
 function simpleArraySum(ar) {
-    var sum = 0
+    let sum = 0;
 
     ar.forEach(element => {
         sum += element
-    })
+    });
 
-    return sum
+    return sum;
 }
 
-console.log(simpleArraySum(numbers))
+console.log(simpleArraySum(numbers));
